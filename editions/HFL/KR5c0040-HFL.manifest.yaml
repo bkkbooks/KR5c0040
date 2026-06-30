@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5c0040/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0040/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上浩元經
+  date: '2015-08-29 00:17:02.518559'
+  source:
+    repository: kanripo
+    path: KR5c0040
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0040_000-HFL.yaml, hash: 'sha256:f73edae1b271ceb4300774c3177e06f2e175f3c790e0a05b20e4a879fcf3e1d5'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0040_000-HFL.markers.yaml, hash: 'sha256:c60f28f360c2c963f10d93a6e95392cb7c76931ce61d09803b3a2bfb70e3eaf9'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0040_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 389
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:e1ba48e8ea45198829cda0c2d06c492af4dae1a6964a24f09f7b2e716d6708bd

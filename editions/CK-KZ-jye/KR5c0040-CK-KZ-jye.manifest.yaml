@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0040/CK-KZ-jye/v1
+canonical_location: https://kanripo.org/bkk/KR5c0040/CK-KZ-jye/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上浩元經
+  date: '2015-08-29 00:17:02.518559'
+  source:
+    repository: kanripo
+    path: KR5c0040
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: CK-KZ-jye
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0040_000-CK-KZ-jye.yaml, hash: 'sha256:2cf72a3e5ae63c0d77a71fdffa5870cedc078102f5fd9c75330daca98b082c9e'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0040_000-CK-KZ-jye.markers.yaml, hash: 'sha256:68aa0adca0277f276bdd5a6a41041125a551bc4bf7f624517ee481eddbe6df66'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0040_CK-KZ-jye_000-h1
+    span:
+    - body
+    - 0
+    - 384
+  label: 太上浩源經
+  type: section
+  level: 1
+hash: sha256:e3c9674d652c7cd7d4a5b6637887409f485f4bb0956ff06ed4ad59a7936452ce
